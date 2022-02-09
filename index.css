@@ -1,0 +1,61 @@
+body{
+padding:0;
+margin:0;
+
+
+}
+
+
+#container{
+display:flex;
+justify-content:center;
+
+}
+
+#form{
+margin-top:10vh;
+display:flex;
+justify-content:center;
+}
+
+#input{
+width:50vw;
+min-width:300px;
+}
+
+#submit
+{
+ margin-left:10px;
+ height:38px;
+ }
+
+
+
+#output{
+display:flex;
+padding:3rem;
+justify-content:center;
+background-color:#f2f9f9;
+}
+
+#image
+{
+ border: 1px solid black;
+height:60vh;
+width:60vw;
+object-fit: contain;
+}
+
+#link{
+text-decoration:none;
+color:white;
+}
+#link:hover{
+text-decoration:none;
+color:white;
+}
+#download
+{
+ margin-left:77vw;
+ height:38px;
+ }

@@ -1,0 +1,12 @@
+{
+    "manifest_version" : 2,
+    "name" : "SCREENSHOOTER",
+    "version" : "1.0",
+    "description" : "captures FULL Page screenshot from the input url by the user",
+    
+    "browser_action" : {
+        "default_popup" : "index.html"
+    },
+ "content_security_policy": "script-src 'self' https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js; object-src 'self'"
+    
+}
